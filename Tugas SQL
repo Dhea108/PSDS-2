@@ -1,11 +1,11 @@
 SELECT * FROM Invoice i
 GROUP BY BillingCountry;
 
-SELECT *, COUNT(BillingCountry) As Banyak from Invoice i
+SELECT *, COUNT(BillingCountry) from Invoice i
 GROUP BY BillingCountry
 
-SELECT *, MAX(BillingCountry) As Maksimum From Invoice i
+SELECT *, MAX(BillingCountry) from Invoice i
 GROUP BY BillingCountry
 
-SELECT *, MIN(BillingCountry) As Minimum From Invoice i
+SELECT *, MIN(BillingCountry) from Invoice i
 GROUP BY BillingCountry
